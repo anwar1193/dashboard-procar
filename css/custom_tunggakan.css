@@ -1,0 +1,231 @@
+/** ini untuk kotak tunggakan **/
+			
+	#box_current_a{
+		width:50px;
+		height:20px;
+		background:green;
+		margin-left:5px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_current_b{
+		width:110px;
+		height:20px;
+		background:green;
+		margin-left:0px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_1_7a{
+		width:50px;
+		height:20px;
+		background:orange;
+		margin-left:5px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_1_7b{
+		width:110px;
+		height:20px;
+		background:orange;
+		margin-left:0px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_8_30a{
+		width:50px;
+		height:20px;
+		background:#248fed;
+		margin-left:5px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_8_30b{
+		width:110px;
+		height:20px;
+		background:#248fed;
+		margin-left:0px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_31_90a{
+		width:50px;
+		height:20px;
+		background:yellow;
+		margin-left:5px;
+		color:black;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_31_90b{
+		width:110px;
+		height:20px;
+		background:yellow;
+		margin-left:0px;
+		color:black;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_61_90a{
+		width:50px;
+		height:20px;
+		background:#c2f542;
+		margin-left:5px;
+		color:black;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_61_90b{
+		width:110px;
+		height:20px;
+		background:#c2f542;
+		margin-left:0px;
+		color:black;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_90_upa{
+		width:50px;
+		height:20px;
+		background:red;
+		margin-left:5px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:11px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_90_upb{
+		width:110px;
+		height:20px;
+		background:red;
+		margin-left:0px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#total_a{
+		width:50px;
+		height:20px;
+		background:gray;
+		margin-left:5px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:11px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#total_b{
+		width:110px;
+		height:20px;
+		background:gray;
+		margin-left:0px;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_ayda1{
+		width:55px;
+		height:20px;
+		background:gray;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		margin-top:5px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#box_ayda2{
+		width:110px;
+		height:20px;
+		background:gray;
+		color:white;
+		padding: 2px;
+		display: inline-block;
+		font-size:12px;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	#teks{
+		width: 55px;
+		display: inline-block;
+		font-size:12px;
+		margin-left:5px;
+	}
+	
+	#teks_judul{
+		display: inline-block;
+		font-size:12px;
+		margin-left:5px;
+	}
+	
+	#header_4{
+		font-size: 13px;
+		text-align: center;
+	}
+	
+	#ket_waktu{
+		font-size : 11px;
+		text-align: center;
+	}
