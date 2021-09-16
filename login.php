@@ -127,7 +127,7 @@
 
 
 					<div class="wrap-input100 rs1 validate-input" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" autocomplete="off">
+						<input class="input100" type="text" name="username" autocomplete="off" autofocus="">
 						<span class="label-input100">Username</span>
 					</div>
 					

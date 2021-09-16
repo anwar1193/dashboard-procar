@@ -309,27 +309,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<br />
 				
 				<p id="teks"><b>Awal</b></p>
-				<div id="box_ayda1"><?php echo $data_ayda['unit_awal'];?></div> 
+				<div id="box_ayda1"><?php echo number_format($data_ayda['unit_awal'],0,'.',',');?></div> 
 				<div id="box_ayda2"><?php echo rupiah($data_ayda['os_awal']); ?></div>				
 				
 				<br />
 				
 				
 				<p id="teks"><b>Ayda In</b></p>
-				<div id="box_ayda1"><?php echo $data_ayda['penambahan_unit'];?></div> 
+				<div id="box_ayda1"><?php echo number_format($data_ayda['penambahan_unit'],0,'.',',');?></div> 
 				<div id="box_ayda2"><?php echo rupiah($data_ayda['penambahan_os']); ?></div>				
 				
 				<br />
 				
 				<p id="teks"><b>Ayda Out</b></p>
-				<div id="box_ayda1"><?php echo $data_ayda['pengurangan_unit'];?></div> 
+				<div id="box_ayda1"><?php echo number_format($data_ayda['pengurangan_unit'],0,'.',',');?></div> 
 				<div id="box_ayda2"><?php echo rupiah($data_ayda['pengurangan_os']); ?></div>			
 				
 				<br />
 				
 				
 				<p id="teks"><b>Sisa</b></p>
-				<div id="box_ayda1"><?php echo $data_ayda['unit_akhir']; ?></div> 
+				<div id="box_ayda1"><?php echo number_format($data_ayda['unit_akhir'],0,'.',','); ?></div> 
 				<div id="box_ayda2"><?php echo rupiah($data_ayda['os_akhir']); ?></div>
 				
 								

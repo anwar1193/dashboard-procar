@@ -76,16 +76,29 @@
 	
 	//--------------------------------------------------------------------------------------- 
 	
+	// Query pencapaian Collection Bulan Lalu
+	$query_collpay_lalu = "SELECT * FROM tbl_coll_paymentlalu WHERE cabang='TOTAL'";
+	$res_collpay_lalu = mysqli_query($koneksi,$query_collpay_lalu) or die ('error fungsi');
+	$row_collpay_lalu = mysqli_fetch_assoc($res_collpay_lalu);
+	
+	$total_payment_coll_lalu = $row_collpay_lalu['pencapaian'];
+	$target_coll_lalu = $row_collpay_lalu['target_cabang'];
+	$persentase_collection_lalu = ($total_payment_coll_lalu/$target_coll_lalu)*100;
 	
 	// Query Pencapaian Collection Bulan Ini
 	$query_collpay = "SELECT * FROM tbl_coll_payment WHERE cabang='TOTAL'";
 	$res_collpay = mysqli_query($koneksi,$query_collpay) or die ('error fungsi');
-	$row_collpay = mysqli_fetch_assoc($res_collpay);
-	
-	$total_payment_coll = $row_collpay['pencapaian'];
-	$target_coll = $row_collpay['target_cabang'];
-	
-	$persentase_collection = ($total_payment_coll/$target_coll)*100;
+	$row_collpay = mysqli_fetch_assoc($res_collpay);	
+
+	if($row_collpay['pencapaian'] != $total_payment_coll_lalu){
+		$total_payment_coll = $row_collpay['pencapaian'];
+		$target_coll = $row_collpay['target_cabang'];
+		$persentase_collection = ($total_payment_coll/$target_coll)*100;
+	}else{
+		$total_payment_coll = 0;
+		$target_coll = 0;
+		$persentase_collection = 0;
+	}
 	
 	$tgl_coll0 = $row_collpay['tanggal'];
 	$tgl_coll = date('d/m/Y', strtotime($tgl_coll0));
