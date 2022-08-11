@@ -114,7 +114,7 @@
 							SUM(IF( DPD BETWEEN 61 AND 90, OSPokokReal, 0)) AS tunggakan5,
 							SUM(IF( DPD>=91, OSPokokReal, 0)) AS tunggakan4,
 							SUM(OSPokokReal) AS total_tunggakan
-							FROM tbl_collection2";
+							FROM tbl_collection3";
 	$result_tunggakan = mysqli_query($koneksi,$query_tunggakan) or die ('error fungsi');
 	$row_tunggakan = mysqli_fetch_assoc($result_tunggakan);
 	

@@ -358,8 +358,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				enabled: false
 			},
 			xAxis: [{
-				categories: ['Jan 21', 'Feb 21', 'Mar 21', 'Apr 21', 'Mei 21', 'Jun 21',
-					'Jul 21', 'Agu 21', 'Sep 21', 'Okt 21', 'Nov 21', 'Des 21'],
+				categories: ['Jan 22', 'Feb 22', 'Mar 22', 'Apr 22', 'Mei 22', 'Jun 22',
+					'Jul 22', 'Agu 22', 'Sep 22', 'Okt 22', 'Nov 22', 'Des 22'],
 				crosshair: true
 			}],
 			yAxis: [{ // Primary yAxis
@@ -542,8 +542,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				enabled: false
 			},
 			xAxis: [{
-				categories: ['Jan 21', 'Feb 21', 'Mar 21', 'Apr 21', 'Mei 21', 'Jun 21',
-					'Jul 21', 'Agu 21', 'Sep 21', 'Okt 21', 'Nov 21', 'Des 21'],
+				categories: ['Jan 22', 'Feb 22', 'Mar 22', 'Apr 22', 'Mei 22', 'Jun 22',
+					'Jul 22', 'Agu 22', 'Sep 22', 'Okt 22', 'Nov 22', 'Des 22'],
 				crosshair: true
 			}],
 			yAxis: [{ // Primary yAxis
@@ -707,8 +707,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					}
 				},
 				xAxis: [{
-					categories: ['Jan 21', 'Feb 21', 'Mar 21', 'Apr 21', 'Mei 21', 'Jun 21',
-					'Jul 21', 'Agu 21', 'Sep 21', 'Okt 21', 'Nov 21', 'Des 21'],
+					categories: ['Jan 22', 'Feb 22', 'Mar 22', 'Apr 22', 'Mei 22', 'Jun 22',
+					'Jul 22', 'Agu 22', 'Sep 22', 'Okt 22', 'Nov 22', 'Des 22'],
 					crosshair: true
 				}],
 				legend: {
